@@ -60,7 +60,7 @@ function checkAnswer(currentLevel) {
         }
     } else{
         playSound("wrong");
-        $("#level-title").html("Game Over. Press Start to Continue");
+        $("#level-title").html("Game Over, Press Start");
         $("body").addClass("game-over");
         setTimeout(() => {
             $("body").removeClass("game-over");
@@ -69,3 +69,8 @@ function checkAnswer(currentLevel) {
     }
 }
 
+function startOver(){
+    level = 0;
+    gamePattern = [];
+    started = false;
+}
