@@ -59,6 +59,13 @@ function checkAnswer(currentLevel) {
             }, 1000);
         }
     } else{
-        console.log("wrong");
+        playSound("wrong");
+        $("#level-title").html("Game Over. Press Start to Continue");
+        $("body").addClass("game-over");
+        setTimeout(() => {
+            $("body").removeClass("game-over");
+        }, 200);
+        startOver();
     }
 }
+
