@@ -48,6 +48,7 @@ $(".start").click(function () {
     if (!started) {
         nextSequence();
         started = true;
+        $(".start").hide();
     }
 })
 
@@ -73,4 +74,5 @@ function startOver(){
     level = 0;
     gamePattern = [];
     started = false;
+    $(".start").show();
 }

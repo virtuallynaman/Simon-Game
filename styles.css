@@ -72,7 +72,7 @@ body {
 
 footer {
   margin-top: 5%;
-  color: #eeeeee;
+  color: #FEF2BF;
   text-align: center;
   font-size:1rem;
   font-family: "Press Start 2P", cursive;
@@ -80,7 +80,7 @@ footer {
 
 .foot a{
   text-decoration: none;
-  color: #eeeeee;
+  color: #FEF2BF;
 }
 
 .foot:hover a{
