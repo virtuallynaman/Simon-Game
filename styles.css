@@ -51,3 +51,21 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+.start {
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  font-family: 'Press Start 2P', cursive;
+  color: #ffffff;
+  border: none;
+  font-size: 22px;
+  background: #ff0000;
+  padding: 18px 20px 18px 20px;
+  text-decoration: none;
+}
+
+.start:hover {
+  background: #fc3c3c;
+  text-decoration: none;
+}
