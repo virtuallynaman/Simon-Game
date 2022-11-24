@@ -69,3 +69,20 @@ body {
   background: #fc3c3c;
   text-decoration: none;
 }
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-size:1rem;
+  font-family: "Press Start 2P", cursive;
+}
+
+.foot a{
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+.foot:hover a{
+  text-decoration: underline;
+}
