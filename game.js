@@ -52,6 +52,7 @@ $(".start").click(function () {
     }
 })
 
+//Check user clicked pattern against game generated pattern
 function checkAnswer(currentLevel) {
     if (userClickedPattern[currentLevel] === gamePattern[currentLevel]) {
         if (userClickedPattern.length === gamePattern.length) {
